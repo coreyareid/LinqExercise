@@ -18,6 +18,7 @@ namespace LinqExercise
         }
         public int YearsOfExperience { get; set; }
 
+        // Perameterized Constructor
         public Employee(string firstName, string lastName, int age, int yearsOfExperience)
         {
             FirstName = firstName;
@@ -25,7 +26,7 @@ namespace LinqExercise
             Age = age;
             YearsOfExperience = yearsOfExperience;
         }
-        
+        // Default Constructor
         public Employee()
         {
             
